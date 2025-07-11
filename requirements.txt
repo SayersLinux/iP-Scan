@@ -1,0 +1,9 @@
+# IP-Scan Requirements
+PyQt5>=5.15.0
+ipaddress>=1.0.0
+requests>=2.25.0
+colorama>=0.4.4
+psutil>=5.8.0
+tqdm>=4.62.0
+# اختياري - مفيد لتحليل الشبكات المتقدم
+# python-nmap>=0.7.1

@@ -1,0 +1,34 @@
+# تحديد كيفية تعامل Git مع أنواع الملفات المختلفة
+
+# تعامل مع ملفات النصوص
+*.md text eol=lf
+*.py text eol=lf
+*.txt text eol=lf
+*.bat text eol=crlf
+*.sh text eol=lf
+
+# تعامل مع ملفات الصور كملفات ثنائية
+*.svg binary
+*.png binary
+*.jpg binary
+*.ico binary
+
+# تعامل مع ملفات البايثون كلغة برمجة بايثون
+*.py linguist-language=Python
+
+# تعامل مع ملفات الماركداون كوثائق
+*.md linguist-documentation
+
+# تعامل مع ملفات الترجمة
+*.ts linguist-language=XML
+*.qm binary
+
+# تعامل مع ملفات الإعدادات
+*.ini text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# تعامل مع ملفات الترخيص والمساهمة كوثائق
+LICENSE text eol=lf linguist-documentation
+CONTRIBUTING.md text eol=lf linguist-documentation

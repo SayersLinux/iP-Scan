@@ -1,0 +1,18 @@
+# تضمين الملفات الإضافية في حزمة التوزيع
+include LICENSE
+include README.md
+include requirements.txt
+include install.bat
+include icon.svg
+
+# تضمين جميع ملفات الوثائق
+include *.md
+
+# تضمين ملفات الترجمة إن وجدت
+recursive-include translations *.qm *.ts
+
+# استبعاد الملفات المؤقتة والمجلدات
+global-exclude *.py[cod] __pycache__/* *.so .DS_Store
+global-exclude .git*
+global-exclude .vscode/*
+global-exclude venv/*

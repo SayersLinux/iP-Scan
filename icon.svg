@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- خلفية دائرية -->
+  <circle cx="64" cy="64" r="60" fill="#2c3e50" />
+  
+  <!-- شبكة IP -->
+  <g fill="none" stroke="#3498db" stroke-width="2" opacity="0.7">
+    <circle cx="64" cy="64" r="40" />
+    <circle cx="64" cy="64" r="25" />
+    <line x1="24" y1="64" x2="104" y2="64" />
+    <line x1="64" y1="24" x2="64" y2="104" />
+    
+    <!-- خطوط متقاطعة -->
+    <line x1="35" y1="35" x2="93" y2="93" />
+    <line x1="35" y1="93" x2="93" y2="35" />
+  </g>
+  
+  <!-- رمز المسح -->
+  <g>
+    <!-- نقاط تمثل عناوين IP -->
+    <circle cx="45" cy="45" r="4" fill="#3498db" />
+    <circle cx="83" cy="45" r="4" fill="#3498db" />
+    <circle cx="45" cy="83" r="4" fill="#3498db" />
+    <circle cx="83" cy="83" r="4" fill="#3498db" />
+    <circle cx="64" cy="64" r="6" fill="#e74c3c" />
+    
+    <!-- خطوط الاتصال -->
+    <line x1="45" y1="45" x2="64" y2="64" stroke="#3498db" stroke-width="2" stroke-dasharray="3,2" />
+    <line x1="83" y1="45" x2="64" y2="64" stroke="#3498db" stroke-width="2" stroke-dasharray="3,2" />
+    <line x1="45" y1="83" x2="64" y2="64" stroke="#3498db" stroke-width="2" stroke-dasharray="3,2" />
+    <line x1="83" y1="83" x2="64" y2="64" stroke="#3498db" stroke-width="2" stroke-dasharray="3,2" />
+    
+    <!-- رمز المسح (عدسة مكبرة) -->
+    <circle cx="90" cy="90" r="15" fill="none" stroke="#e74c3c" stroke-width="3" />
+    <line x1="100" y1="100" x2="110" y2="110" stroke="#e74c3c" stroke-width="3" stroke-linecap="round" />
+  </g>
+  
+  <!-- نص IP-Scan -->
+  <text x="64" y="20" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#ecf0f1">IP-Scan</text>
+</svg>
